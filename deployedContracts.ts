@@ -1,0 +1,11 @@
+const deployedContracts = {
+    ccReceiver: "0xF584776c511f02E1F6226d381b4f77CA17EBdC58",
+    transferUsdc: "0x755e3b7D0a101999AC7332E8008F7a27867A722C",
+    swap: "0xba9F4F7BF70D4c16A8F0677DBB895B1BdBf696D9",
+    fujiRouter: "0x9B51D5f1f388716FA62e5551640603EfA7b90A39",
+    ethRouter: "0x8Bb2db64840bfdDf257487EFeF884b2Fa24e32eA",
+    mTransferUsdc: "0x2075C6929F0FdD1EC0B312bf283b4d70273E83f2",
+    mCCReceiver: "0xFbBEE88FdfE9B4a55b122423156791be3520D947"
+}
+
+export { deployedContracts } 
