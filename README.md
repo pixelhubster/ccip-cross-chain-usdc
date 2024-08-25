@@ -19,7 +19,8 @@ AVALANCHE_FUJI_RPC_URL
 ```shell
 npx hardhat run ./test/estimateGasTenderly.tx --network avalancheFuji
 ```
-To estimate the gas we be
+To estimate the gas we can get the messageId of the message transaction.
+Use the messageId in tenderly to get the gasLimit.
 
 # Estimate Gas on Real Testnet using MockCCIPRouter
 ```shell
