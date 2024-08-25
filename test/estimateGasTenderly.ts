@@ -50,19 +50,21 @@ async function setUp() {
 
                 if (parsedLog && parsedLog.name === "UsdcTransferred") {
                     const msgId = await parsedLog.args.messageId || await parsedLog.args[0];
-                    console.log(`Message Id: ${msgId}`);
+                    // console.log(`Message Id: ${msgId}`);
 
                     messageIds.push({
                         iteration,
                         gasLimit,
                         msgId
                     })
-                    console.log(`Transferred Usdc with message id: ${msgId} `)
+                    console.log(`Transferred USDC with message id: ${msgId}`)
                 }
             }
         }
 
     }
+
+    console.log("Please use the messageId in tenderly to get the gasprice.")
 
 }
 setUp().catch((error) => {
